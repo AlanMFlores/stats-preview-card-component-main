@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 80px;
+}
+
+.card__images {
+    width: 80%;
+    border-radius: 0 8px 8px 0;
+}
+
+.card__images img {
+    border-radius: 0 8px 8px 0;
+
+}
+
+.card__copy {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 50px;
+}
+
+.card__copy--title {
+    font-size: 3.4rem;
+}
+
+.card__copy--description {
+    font-size: 1.6rem;
+}
+
+.stats {
+    display: flex;
+    gap: 50px;
+}
+
+.stats__companies, .stats__templates {
+    margin-bottom: 0;
+}

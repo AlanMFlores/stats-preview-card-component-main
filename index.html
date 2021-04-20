@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="tablet.css" media="(min-width:600px)">
+  <link rel="stylesheet" href="desktop.css" media="(min-width:900px)">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Stats preview card component</title>
+
+</head>
+<body>
+
+  <div class="card">
+
+    <div class="card__images">
+
+        <picture>
+          <source srcset="images/image-header-mobile.jpg" media="(max-width:900px)" type="">
+          <img src="images/image-header-desktop.jpg" alt="">
+        </picture>
+
+    </div>
+
+    <div class="card__copy">
+      <h1 class="card__copy--title">
+        Get <span>insights</span> that help your business grow.
+      </h1>
+
+      <p class="card__copy--description">
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+      </p>
+
+      <div class="stats">
+
+        <div class="stats__companies">
+          <p class="stats-num">
+            10k+
+          </p>
+          <p class="stats-name">
+            companies
+          </p>
+        </div>
+        <div class="stats__templates">
+          <p class="stats-num">
+            314
+          </p>
+          <p class="stats-name">
+            templates
+          </p>
+        </div>
+        <div class="stats__queries">
+          <p class="stats-num">
+            12m+
+          </p>
+          <p class="stats-name">
+            queries
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
